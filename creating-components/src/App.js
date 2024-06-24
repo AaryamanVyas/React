@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+
 import Header from './components/Header'
 import Main from './components/Main'
-import Sidebar from './components/Main'
+import Sidebar from './components/Sidebar'
 import './App.css';
 
 function App() {
