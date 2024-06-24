@@ -8,8 +8,8 @@ function App() {
   return (
     <div>
      <Header name="Anna" color="purple" />
-     <Main />
-     <Sidebar/> 
+     <Main greet="howdy"/>
+     <Sidebar greet="Hi"/> 
     </div>
   );
 }
