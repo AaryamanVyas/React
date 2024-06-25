@@ -1,16 +1,20 @@
-import Header from './components/Header'
-import Main from './components/Main'
-import Sidebar from './components/Sidebar'
+// App.js
+import React from 'react';
+import Header from './components/Header';
+import Main from './components/Main';
+import Sidebar from './components/Sidebar';
 import './index.css';
 
-export default function App() {
+function App() {
   return (
     <div className='App'>
-      <Header />
+      <Header name="John Doe" color="blue"/>
       <div>
-        <Main userName="Mack" num={5} />
+        <Main greet="Hello" />
         <Sidebar />
       </div>
     </div>
   );
+}
+
 export default App;
