@@ -1,4 +1,3 @@
-import ModeToggler from './ModeToggler';
 import './App.css';
 import ModeToggler from './ModeToggler';
 
