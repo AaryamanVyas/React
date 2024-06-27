@@ -1,9 +1,12 @@
+import React from 'react';
 import Btn from './Btn';
 import './App.css';
 
 function App() {
   return (
-    <Btn />
+    <div>
+      <Btn />
+    </div>
   );
 }
 
