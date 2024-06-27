@@ -1,7 +1,11 @@
 function Btn() {
+    const clickHandler = 
+        () => console.log('clicked')
     return (
-        <button>Click Me</button>
-    )
+        <button onClick={clickHandler}>
+            Click Me
+        </button>
+    );
 }
 
 export default Btn;
