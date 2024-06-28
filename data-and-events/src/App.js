@@ -1,3 +1,4 @@
+import Child from './child';
 import './App.css';
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
   
   return (
     <div>
-      <h1>Insert the child component here.</h1>
+      <Child message={date.toLocaleTimeString()} />
     </div>
   );
 }
