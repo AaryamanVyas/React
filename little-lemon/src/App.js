@@ -3,10 +3,15 @@ import Heading from './Heading';
 import './App.css';
 
 function App() {
-  cosnt [word, setWord] = React.useState('eat')
+  const [word, setWord] = React.useState('Eat')
+  function handleClick() {
+    setWord('Drink')
+  }
+  
   return (
     <div className='App'>
-      <Heading message={word + "at Little Lemon"} />
+      <Heading message={word + " at Little Lemon"} />
+      <button onClick={handleClick}>Click Here</button>
     </div>
   );
 }
