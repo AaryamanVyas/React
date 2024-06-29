@@ -2,7 +2,7 @@ import React from "react";
 
 const MealsContext = React.createContext();
 
-const todaysMeals = ["Baked Beans", "Baked Sweet Potatoes", "Baked Potatoes"];
+const todaysMeals = ["Baked Beans", "Baked Sweet Potatoes"];
 
 const MealsProvider = ({ children }) => {
     const [meals, setMealsList] = React.useState(todaysMeals);
