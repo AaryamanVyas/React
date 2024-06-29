@@ -1,4 +1,6 @@
+import React from "react";
 import { useMealsListContext } from "../providers/MealProvider";
+
 const MealsList = () => {
     const { meals } = useMealsListContext();
 
@@ -9,7 +11,7 @@ const MealsList = () => {
                 <h2 key={index}>{meal}</h2>
             ))}
         </div>
-    )
-}
+    );
+};
 
-export default MealsList
+export default MealsList;

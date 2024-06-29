@@ -1,12 +1,14 @@
+import React from "react";
 import { useMealsListContext } from "../providers/MealProvider";
 
 const Counter = () => {
-    const {meals} = useMealsListContext();
+    const { meals } = useMealsListContext();
+
     return (
         <div>
-            <h3>Number of meals today: {meals.length} </h3>
+            <h3>Number of meals today: {meals.length}</h3>
         </div>
     );
-}
+};
 
-export default Counter
+export default Counter;
