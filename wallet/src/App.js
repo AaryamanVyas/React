@@ -2,7 +2,7 @@ import { useReducer } from 'react';
 import './App.css';
 import { type } from '@testing-library/user-event/dist/type';
 
-const reducer = {state, action} => {
+const reducer = (state, action) => {
   if (action.type === 'ride') return {money: state.money +10};
   if (action.type === 'fuel') return {money: state.money -50};
   return new Error();
