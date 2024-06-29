@@ -1,6 +1,5 @@
 import { useReducer } from 'react';
 import './App.css';
-import { type } from '@testing-library/user-event/dist/type';
 
 const reducer = (state, action) => {
   if (action.type === 'ride') return {money: state.money +10};
