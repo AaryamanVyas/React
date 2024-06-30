@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.nav {
+  display: flex;
+  gap: 10px; /* Adjust the gap as needed */
+}
+
+.nav-items {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  /* Add any additional styling you need */
+}
