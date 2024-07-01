@@ -1,7 +1,7 @@
 function App(){
   const time = new Date();
   const day = time.toLocaleString("en-us", { weekday: "long" });
-  const morning = time.getHours() >= 6 && time.getHours() <= 12;
+  const morning = time.getHours() >= 6 && time.getHours() <= 20;
   let dayMessage;
   if (day.toLowerCase() === "monday") {
     dayMessage = `Happy ${day}`;
