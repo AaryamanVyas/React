@@ -44,10 +44,12 @@ function App() {
       <div> 
         <h1>Simplest Working Calculator</h1> 
       </div> 
-      <form> 
-        <p ref={resultRef}> 
-          {result} 
-        </p> 
+      <form>
+        <div className="output-box"> 
+          <p ref={resultRef}> 
+            {result} 
+          </p> 
+        </div>
         <input
         pattern="[0-9]"
         ref={inputRef}

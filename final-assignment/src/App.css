@@ -13,6 +13,7 @@ input {
   display: block;
   margin-bottom: 20px;
   align-items: center;
+  color: orange;
 }
 button {
   border: 1px solid gray;
@@ -33,4 +34,12 @@ h1 {
 .center-input {
   display: block;
   margin: 0 auto 20px;
+}
+.output-box {
+  color: orange;
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 20px auto;
 }
