@@ -12,6 +12,7 @@ button {
 input {
   display: block;
   margin-bottom: 20px;
+  align-items: center;
 }
 button {
   border: 1px solid gray;
@@ -29,8 +30,7 @@ h1 {
   color: orange;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.center-input {
+  display: block;
+  margin: 0 auto 20px;
 }

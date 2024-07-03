@@ -49,11 +49,12 @@ function App() {
           {result} 
         </p> 
         <input
-          pattern="[0-9]" 
-          ref={inputRef} 
-          type="number" 
-          placeholder="Type a number" 
-        /> 
+        pattern="[0-9]"
+        ref={inputRef}
+        type="number"
+        placeholder="Type a number"
+        className="center-input"
+      />
         <button onClick={plus}>add</button> 
         <button onClick={minus}>minus</button>
         <button onClick={times}>multiply</button> 
