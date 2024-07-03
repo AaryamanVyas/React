@@ -57,12 +57,17 @@ function App() {
         placeholder="Type a number"
         className="center-input"
       />
-        <button onClick={plus}>add</button> 
-        <button onClick={minus}>minus</button>
-        <button onClick={times}>multiply</button> 
-        <button onClick={divide}>divide</button>
-        <button onClick={resetInput}>resetInput</button>
-        <button onClick={resetResult}>resetResult</button>
+        <div>
+        <button onClick={plus}>+</button> 
+        <button onClick={minus}>-</button>
+        <button onClick={times}>*</button> 
+        <button onClick={divide}>/</button>
+        </div>
+        <div className="button-container button-spacing" >
+        <button onClick={resetInput} className="wide-button">resetInput</button>
+        <button onClick={resetResult} className="wide-button">resetResult</button>
+        </div>
+        
       </form> 
     </div> 
   ); 

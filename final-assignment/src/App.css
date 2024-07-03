@@ -1,25 +1,44 @@
 * {
-  font-family: sans-serif;
+  font-family: "Roboto Mono", monospace;
   text-align: center;
-  background-color: black;
+  background-color: #333;
+  color: #fff;
 }
 input,
 button {
-  font-size: 20px;
-  padding: 10px;
+  font-size: 24px;
+  padding: 15px;
   border-radius: 5px;
+  border: none;
+  outline: none;
 }
 input {
   display: block;
   margin-bottom: 20px;
   align-items: center;
-  color: orange;
+  background-color: #555;
+  width: 200px;
 }
 button {
   border: 1px solid gray;
   background: whitesmoke;
-  margin-right: 5px;
+  margin-right: 10px;
+  background-color: #555;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+
 }
+
+button:hover {
+  background-color: #777;
+}
+
+button:active {
+  background-color: #999;
+}
+
 button:nth-last-child(2),
 button:nth-last-child(1) {
   background: tomato;
@@ -28,7 +47,8 @@ button:nth-last-child(1) {
 
 h1 {
   text-align: center;
-  color: orange;
+  color: #ff9800;
+  margin-top: 50px;
 }
 
 .center-input {
@@ -36,10 +56,34 @@ h1 {
   margin: 0 auto 20px;
 }
 .output-box {
-  color: orange;
-  border: 2px solid gray;
-  padding: 10px;
-  border-radius: 5px;
+  color: #ff9800;
+  border: 2px solid #555;
+  padding: 20px;
+  border-radius: 10px;
   width: fit-content;
   margin: 20px auto;
+  font-size: 32px;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+.wide-button {
+  width: auto;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button-container button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.button-container .button-spacing {
+  margin-top: 20px;
 }
