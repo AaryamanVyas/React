@@ -21,3 +21,13 @@ button:nth-last-child(1) {
   background: tomato;
   color: white;
 }
+* {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  color: orange;
+}
+* {
+  text-align: center;
+}
