@@ -65,12 +65,13 @@ function App() {
         </div>
         <div className="button-container">
           <div className="button-spacing">
-            <button onClick={resetInput} className="wide-button">
-              Clear Input
-            </button>
-            <button onClick={resetResult} className="wide-button">
-              Clear Result
-            </button>
+          <button onClick={resetInput} className="wide-button orange">
+            Clear Input
+          </button>
+          <button onClick={resetResult} className="wide-button orange">
+            Clear Result
+          </button>
+
           </div>
         </div>
 

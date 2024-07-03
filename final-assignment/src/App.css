@@ -4,6 +4,7 @@
   background-color: #333;
   color: #fff;
 }
+
 input,
 button {
   font-size: 24px;
@@ -12,6 +13,7 @@ button {
   border: none;
   outline: none;
 }
+
 input {
   display: block;
   margin-bottom: 20px;
@@ -19,16 +21,14 @@ input {
   background-color: #555;
   width: 200px;
 }
+
 button {
-  border: 1px solid gray;
-  background: whitesmoke;
-  margin-right: 10px;
   background-color: #555;
+  margin-right: 10px;
   height: 50px;
   width: 50px;
   border-radius: 50%;
   display: inline-block;
-
 }
 
 button:hover {
@@ -39,10 +39,17 @@ button:active {
   background-color: #999;
 }
 
-button:nth-last-child(2),
-button:nth-last-child(1) {
-  background: tomato;
-  color: white;
+button.orange {
+  background-color: #ff9800;
+  color: #333;
+}
+
+button.orange:hover {
+  background-color: #ffa726;
+}
+
+button.orange:active {
+  background-color: #fb8c00;
 }
 
 h1 {
@@ -55,6 +62,7 @@ h1 {
   display: block;
   margin: 0 auto 20px;
 }
+
 .output-box {
   color: #ff9800;
   border: 2px solid #555;
@@ -63,10 +71,12 @@ h1 {
   width: fit-content;
   margin: 20px auto;
   font-size: 32px;
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 50px;
 }
+
 .wide-button {
   width: auto;
   padding: 15px 20px;
