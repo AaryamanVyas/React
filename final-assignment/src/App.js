@@ -50,11 +50,11 @@ function App() {
           placeholder="Type a number" 
         /> 
         <button onClick={plus}>add</button> 
-        {/* Add the subtract button */} 
-        {/* Add the multiply button */} 
-        {/* Add the divide button */} 
-        {/* Add the resetInput button */} 
-        {/* Add the resetResult button */} 
+        <button onClick={minus}>minus</button>
+        <button onClick={times}>multiply</button> 
+        <button onClick={divide}>divide</button>
+        <button onClick={resetInput}>resetInput</button>
+        <button onClick={resetResult}>resetResult</button>
       </form> 
     </div> 
   ); 
