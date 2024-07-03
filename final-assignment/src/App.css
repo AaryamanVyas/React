@@ -1,5 +1,7 @@
 * {
   font-family: sans-serif;
+  text-align: center;
+  background-color: black;
 }
 input,
 button {
@@ -21,13 +23,14 @@ button:nth-last-child(1) {
   background: tomato;
   color: white;
 }
-* {
-  background-color: black;
-}
+
 h1 {
   text-align: center;
   color: orange;
 }
-* {
-  text-align: center;
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
